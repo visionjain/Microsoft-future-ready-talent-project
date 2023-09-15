@@ -17100,5 +17100,62 @@ p.count-text {
 #openweathermap-widget-11{
   margin-left: 400px;
 }
+/* Style for the search bar container */
+.searchbar {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Style for the search form */
+.searchbar form {
+  display: inline-block;
+}
+
+/* Style for the search input */
+.searchbar input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: 400px;
+}
+
+/* Style for the search button */
+.searchbar button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #1fa12e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover effect for the search button */
+.searchbar button[type="submit"]:hover {
+  background-color: #1fa12e;
+}
+
+/* Style for the cart icon and count */
+.cart-icon {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.cart-icon i {
+  font-size: 24px; /* Adjust the font size as needed */
+  margin-left: 10px;
+}
+
+.cart-count {
+  position: absolute;
+  top: -5px; /* Adjust the position as needed */
+  right: -10px; /* Adjust the position as needed */
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 50%;
+  padding: 5px 8px;
+  font-size: 14px;
+}
+
 
 /*# sourceMappingURL=style-freedom.css.map */

@@ -14,6 +14,9 @@ Author URL: http://w3layouts.com
   <link href="//fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
   <!-- google fonts -->
   <!-- Template CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link href=”./output.css” rel=”stylesheet”>
   <link rel="stylesheet" href="assets/css/style-starter.css">
   <!-- Template CSS -->
 </head>
@@ -24,7 +27,7 @@ Author URL: http://w3layouts.com
     <div class="container">
       <nav class="navbar navbar-expand-lg stroke">
         <h1><a class="navbar-brand mr-lg-5" href="index.html">
-          <span>Agri</span>Power<span>Hub</span>
+            <span>Agri</span>Power<span>Hub</span>
           </a></h1>
         <!-- if logo is image enable this   
       <a class="navbar-brand" href="#index.html">
@@ -49,14 +52,15 @@ Author URL: http://w3layouts.com
             <li class="nav-item">
               <a class="nav-link" href="services.html">Services</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
+
             <li class="nav-item">
               <a class="nav-link" href="soiltest.html">Soil Testing<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
 
           </ul>
@@ -82,347 +86,166 @@ Author URL: http://w3layouts.com
       </nav>
     </div>
   </header>
+
   <!-- //header -->
   <!-- about breadcrumb -->
   <section class="w3l-about-breadcrumb text-left">
     <div class="breadcrumb-bg breadcrumb-bg-about py-sm-5 py-4">
       <div class="container py-2">
-        <h2 class="title">Soil Testing</h2>
+        <h2 class="title">Products</h2>
         <ul class="breadcrumbs-custom-path mt-2">
           <li><a href="#url">Home</a></li>
-          <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> Soil Testing </li>
+          <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> Products </li>
         </ul>
       </div>
     </div>
   </section>
   <!-- //about breadcrumb -->
   <!-- /about-6-->
-  <section class="w3l-cta4 py-5">
-      <div class="container py-lg-5">
-        <div class="ab-section">
-          <h6 class="sub-title">About soil testing</h6>
-          <h3 class="hny-title">What is Soil Testing?</h3>
-          <p class="py-3">Soil testing is a process that involves analyzing soil samples to determine their physical, chemical, and biological properties. These tests provide valuable information about the composition, nutrient content, pH levels, organic matter, and other characteristics of the soil. Soil testing helps farmers, gardeners, and land managers make informed decisions about soil management and crop or plant nutrition</p>
-           
-        </div>
-        <div class="row mt-5">
-          <div class="col-md-6">
-            <img src="https://www.farmmanagement.pro/wp-content/uploads/2018/06/Soil-test-for-beans-Rwanda.-Credit_AGRA-605x330.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-6 mt-md-0 mt-4">
-            <img src="https://youngagrarians.org/wp-content/uploads/2017/03/Fenugreek_Sprouts.jpg" class="img-fluid" alt="">
-          </div>
-        </div>
-      </div>
-  </section>
-  <!-- //about-6-->
-   <!-- /content-6-->
-   <section class="w3l-content-6 py-5" id="why">
-    <div class="container py-lg-5">
-      <div class="row">
-        <div class="hny-title text-white mb-4">Nearest Soil Testing Centers</div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d75628.50687538832!2d80.22229024469566!3d13.007295982199619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1snearest%20soil%20testing%20center!5e0!3m2!1sen!2sin!4v1694778633318!5m2!1sen!2sin" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-    </div>
-</section>
-<section class="sample-soil-tests py-5">
-    <div class="container py-lg-5">
-        <div class="row ">
-            <div class="col-md-6">
-              <canvas id="nitrogenChart"  width="200" height="200"></canvas>
-            </div>
-            <div class="col-md-6">
-              <canvas id="phosphorusChart" width="200" height="200"></canvas>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <canvas id="potassiumChart" width="200" height="200"></canvas>
-            </div>
-            <div class="col-md-6">
-              <canvas id="ocChart" width="200" height="200"></canvas>
-            </div>
-          </div>
-          
-  </section>
-  
-<!-- //content-6-->
-  <!-- stats -->
-  <section class="w3l-statshny py-5" id="stats">
-    <div class="container py-lg-5 py-md-4">
-      <div class="w3-stats-inner-info">
-        <div class="row">
-          <div class="col-lg-4 col-6 stats_info counter_grid text-left">
-            <span class="fa fa-smile-o"></span>
-            <p class="counter">1730</p>
-            <h4>Happy Customers</h4>
-          </div>
-          <div class="col-lg-4 col-6 stats_info counter_grid1 text-left">
-            <span class="fa fa-users"></span>
-            <p class="counter">730</p>
-            <h4>Custom Products</h4>
-          </div>
-          <div class="col-lg-4 col-6 stats_info counter_grid mt-lg-0 mt-5 text-left">
-            <span class="fa fa-database"></span>
-            <p class="counter">30</p>
-            <h4>branches</h4>
-          </div>
-        </div>
+  <section>
+    <div class="searchbar">
+
+      <form action="search.php" method="GET">
+        <input type="text" name="query" placeholder="Search...">
+        <button type="submit"><i class="fas fa-search"></i></button>
+      </form>
+      <div class="cart-icon">
+        <i class="fas fa-shopping-cart"></i>
+        <!-- <span class="cart-count">3</span> -->
       </div>
     </div>
   </section>
-  <!-- //stats -->
-  <!-- team -->
-  <section class="w3l-team" id="team">
-    <div class="team-block py-5">
-      <div class="container py-lg-5">
-        <div class="title-content text-center mb-lg-3 mb-4">
-          <h6 class="sub-title">Hard Working People</h6>
-          <h3 class="hny-title">Our Team</h3>
+
+  <section>
+    <div class="flex">
+      <div class="flex-col md:flex-row justify-between  flex gap-4 items-start mx-4 py-12">
+        <div class="mx-auto">
+          <div>
+            <div class="flex bg-orange-200 rounded-3xl border-yellow-200 shadow dark:bg-gray-800  border-4">
+              <div class="relative flex-none w-24 md:w-48 border-4 border-orange-200 rounded-xl">
+                <img src="https://m.media-amazon.com/images/I/61975xf3F9L._SL1000_.jpg"
+                  alt="shopping image" class="absolute inset-0 object-cover w-full h-full">
+              </div>
+              <form class="flex-auto p-6">
+                <div class="flex flex-wrap">
+                  <h1 class="flex-auto text-xl font-semibold dark:text-gray-50 text-black">Organic Fertilizer</h1>
+                  <div class="text-xl font-semibold text-gray-500 dark:text-gray-300">$20.00</div>
+                  <div class="flex-none w-full mt-2 text-sm font-medium text-gray-500 dark:text-gray-300">In stock
+                  </div>
+                </div>
+                <div class="flex items-baseline mt-4 mb-6 text-gray-700 dark:text-gray-300">
+                  
+                  <a href="#" class="hidden ml-auto text-sm text-gray-500 underline md:block dark:text-gray-300">Size
+                    Guide
+                  </a>
+                </div>
+                <div class="flex mb-4 text-sm font-medium">
+                  <button type="button"
+                    class="py-2 px-4  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-black w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">Buy
+                    now</button>
+                </div>
+                <p class="text-sm text-gray-500 dark:text-gray-300">Free shipping.</p>
+              </form>
+            </div>
+          </div>
         </div>
-        <div class="row">
-          <div class="col-lg-4 col-6 mt-lg-5 mt-4">
-            <div class="box16">
-              <a href="#url"><img src="assets/images/team1.jpg" alt="" class="img-fluid" /></a>
-              <div class="box-content">
-                <h3 class="title"><a href="#url">Alexander</a></h3>
-                <span class="post">Harvester</span>
-                <ul class="social">
-                  <li>
-                    <a href="#" class="facebook">
-                      <span class="fa fa-facebook-f"></span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="twitter">
-                      <span class="fa fa-twitter"></span>
-                    </a>
-                  </li>
-                </ul>
+      </div>
+
+      <div class="flex-col md:flex-row justify-between  flex gap-4 items-start mx-4 py-12">
+        <div class="mx-auto">
+          <div>
+            <div class="flex bg-orange-200 rounded-3xl shadow dark:bg-gray-800 border-yellow-200  border-4">
+              <div class="relative flex-none w-24 md:w-48 border-4 border-orange-200 rounded-xl">
+                <img src="https://m.media-amazon.com/images/I/9142TTyKo5L._SL1500_.jpg"
+                  alt="shopping image" class="absolute inset-0 object-cover w-full h-full  ">
               </div>
+              <form class="flex-auto p-6">
+                <div class="flex flex-wrap">
+                  <h1 class="flex-auto text-xl font-semibold dark:text-gray-50 text-black">Sunflower Seeds</h1>
+                  <div class="text-xl font-semibold text-gray-500 dark:text-gray-300">$15.00</div>
+                  <div class="flex-none w-full mt-2 text-sm font-medium text-gray-500 dark:text-gray-300">In stock
+                  </div>
+                </div>
+                <div class="flex items-baseline mt-4 mb-6 text-gray-700 dark:text-gray-300">
+                  
+                  <a href="#" class="hidden ml-auto text-sm text-gray-500 underline md:block dark:text-gray-300">Size
+                    Guide
+                  </a>
+                </div>
+                <div class="flex mb-4 text-sm font-medium">
+                  <button type="button"
+                    class="py-2 px-4  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-black w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">Buy
+                    now</button>
+                </div>
+                <p class="text-sm text-gray-500 dark:text-gray-300">Free shipping.</p>
+              </form>
             </div>
           </div>
-          <div class="col-lg-4 col-6 mt-lg-5 mt-4">
-            <div class="box16">
-              <a href="#url"><img src="assets/images/team2.jpg" alt="" class="img-fluid" /></a>
-              <div class="box-content">
-                <h3 class="title"><a href="#url">Victoria</a></h3>
-                <span class="post">Harvester</span>
-                <ul class="social">
-                  <li>
-                    <a href="#" class="facebook">
-                      <span class="fa fa-facebook-f"></span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="twitter">
-                      <span class="fa fa-twitter"></span>
-                    </a>
-                  </li>
-                </ul>
+        </div>
+      </div>
+      <div class="flex-col md:flex-row justify-between  flex gap-4 items-start mx-4 py-12">
+        <div class="mx-auto">
+          <div>
+            <div class="flex bg-orange-200 rounded-3xl shadow dark:bg-gray-800 border-yellow-200 border-4">
+              <div class="relative flex-none w-24 md:w-48">
+                <img src="https://qph.cf2.quoracdn.net/main-qimg-8310903182519de2d9b69ec1e0e403f0-lq"
+                  alt="shopping image" class="absolute inset-0 object-cover w-full h-full  rounded-3xl">
               </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-6 mt-lg-5 mt-4">
-            <div class="box16">
-              <a href="#url"><img src="assets/images/team3.jpg" alt="" class="img-fluid" /></a>
-              <div class="box-content">
-                <h3 class="title"><a href="#url">Smith roy</a></h3>
-                <span class="post">Harvester</a></span>
-                <ul class="social">
-                  <li>
-                    <a href="#" class="facebook">
-                      <span class="fa fa-facebook-f"></span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="twitter">
-                      <span class="fa fa-twitter"></span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-6 mt-lg-5 mt-4">
-            <div class="box16">
-              <a href="#url"><img src="assets/images/team4.jpg" alt="" class="img-fluid" /></a>
-              <div class="box-content">
-                <h3 class="title"><a href="#url">Johnson</a></h3>
-                <span class="post">Harvester</a></span>
-                <ul class="social">
-                  <li>
-                    <a href="#" class="facebook">
-                      <span class="fa fa-facebook-f"></span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="twitter">
-                      <span class="fa fa-twitter"></span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-6 mt-lg-5 mt-4">
-            <div class="box16">
-              <a href="#url"><img src="assets/images/team5.jpg" alt="" class="img-fluid" /></a>
-              <div class="box-content">
-                <h3 class="title"><a href="#url">Johnson</a></h3>
-                <span class="post">Harvester</a></span>
-                <ul class="social">
-                  <li>
-                    <a href="#" class="facebook">
-                      <span class="fa fa-facebook-f"></span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="twitter">
-                      <span class="fa fa-twitter"></span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-6 mt-lg-5 mt-4">
-            <div class="box16">
-              <a href="#url"><img src="assets/images/team6.jpg" alt="" class="img-fluid" /></a>
-              <div class="box-content">
-                <h3 class="title"><a href="#url">Johnson</a></h3>
-                <span class="post">Harvester</a></span>
-                <ul class="social">
-                  <li>
-                    <a href="#" class="facebook">
-                      <span class="fa fa-facebook-f"></span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="twitter">
-                      <span class="fa fa-twitter"></span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+              <form class="flex-auto p-6">
+                <div class="flex flex-wrap">
+                  <h1 class="flex-auto text-xl font-semibold dark:text-gray-50 text-black">Cultivator</h1>
+                  <div class="text-xl font-semibold text-gray-500 dark:text-gray-300">$10000.00</div>
+                  <div class="flex-none w-full mt-2 text-sm font-medium text-gray-500 dark:text-gray-300">In stock
+                  </div>
+                </div>
+                <div class="flex items-baseline mt-4 mb-6 text-gray-700 dark:text-gray-300">
+                  
+                  <a href="#" class="hidden ml-auto text-sm text-gray-500 underline md:block dark:text-gray-300">Size
+                    Guide
+                  </a>
+                </div>
+                <div class="flex mb-4 text-sm font-medium">
+                  <button type="button"
+                    class="py-2 px-4  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-black w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">Buy
+                    now</button>
+                </div>
+                <p class="text-sm text-gray-500 dark:text-gray-300">Free shipping.</p>
+              </form>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- //team -->
-
-  <!--/w3l-footer-29-main-->
-  <section class="w3l-footer-29-main">
-    <div class="footer-29 py-5">
-      <div class="container py-lg-4">
-        <div class="row footer-top-29">
-          <div class="footer-list-29 col-lg-4">
-            <h6 class="footer-title-29">About Us</h6>
-            <p class="pr-lg-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
-              voluptate rem ullam dolore nisi voluptatibus esse quasi.Integer sit amet mattis quam.</p>
-            <div class="main-social-footer-29 mt-4">
-              <a href="#facebook" class="facebook"><span class="fa fa-facebook"></span></a>
-              <a href="#twitter" class="twitter"><span class="fa fa-twitter"></span></a>
-              <a href="#instagram" class="instagram"><span class="fa fa-instagram"></span></a>
-              <a href="#linkedin" class="linkedin"><span class="fa fa-linkedin"></span></a>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-6 col-sm-4 footer-list-29 footer-2 mt-lg-0 mt-5">
-
-            <ul>
-              <h6 class="footer-title-29">Useful Links</h6>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="#"> Blog posts</a></li>
-              <li><a href="contact.html">Contact us</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-3 col-md-6 footer-list-29 footer-3 mt-lg-0 mt-5">
-            <ul>
-              <h6 class="footer-title-29">Services</h6>
-              <li>
-                <a href="#url">
-                  Healthy Milk
-                </a>
-              </li>
-              <li>
-                <a href="#url">
-                  Organic Food
-                </a>
-              </li>
-              <li>
-                <a href="#url">
-                  Fresh Fruits
-                </a>
-              </li>
-              <li>
-                <a href="#url">
-                  Tree Planting
-                </a>
-              </li>
-              <li>
-                <a href="#url">
-                  Gardening
-                </a>
-              </li>
-            </ul>
 
 
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-8 footer-list-29 footer-1 mt-lg-0 mt-5">
-            <h6 class="footer-title-29">Contact Us</h6>
-            <ul>
-              <li>
-                <p><span class="fa fa-map-marker"></span> Agricfarm, udaipur, rajasthan
-                  India</p>
-              </li>
-              <li><a href="tel:+91 444xxxxxxx"><span class="fa fa-phone"></span> +91 444xxxxxxx</a></li>
-              <li><a href="mailto:visionjain118@gmail.com" class="mail"><span class="fa fa-envelope-open-o"></span>
-                  visionjain118@gmail.com</a></li>
-            </ul>
-          </div>
 
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section class="w3l-footer-29-main w3l-copyright">
-    <div class="container">
-      <div class="bottom-copies">
-        <p class="copy-footer-29 text-center">copyright &copy; by AgriPowerHub</p>
-      </div>
-    </div>
 
-    <!-- move top -->
-    <button onclick="topFunction()" id="movetop" title="Go to top">
-      <span class="fa fa-angle-up"></span>
-    </button>
-    <script>
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function () {
-        scrollFunction()
-      };
 
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          document.getElementById("movetop").style.display = "block";
-        } else {
-          document.getElementById("movetop").style.display = "none";
-        }
+
+
+  <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("movetop").style.display = "block";
+      } else {
+        document.getElementById("movetop").style.display = "none";
       }
+    }
 
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-    </script>
-    <!-- /move top -->
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+  <!-- /move top -->
   </section>
   <!-- //footer-29 block -->
   <!-- disable body scroll which navbar is in active -->
@@ -472,119 +295,119 @@ Author URL: http://w3layouts.com
       });
     });
     document.addEventListener("DOMContentLoaded", function () {
-    // Data for nitrogen chart
-    var nitrogenData = {
-      labels: ["High", "Low", "Medium"],
-      datasets: [{
-        data: [40, 20, 40],
-        backgroundColor: ["#FF5733", "#36A724", "#FFD733"],
-      }],
-    };
+      // Data for nitrogen chart
+      var nitrogenData = {
+        labels: ["High", "Low", "Medium"],
+        datasets: [{
+          data: [40, 20, 40],
+          backgroundColor: ["#FF5733", "#36A724", "#FFD733"],
+        }],
+      };
 
-    // Data for phosphorus chart
-    var phosphorusData = {
-      labels: ["High", "Low", "Medium"],
-      datasets: [{
-        data: [30, 50, 20],
-        backgroundColor: ["#FF5733", "#36A724", "#FFD733"],
-      }],
-    };
+      // Data for phosphorus chart
+      var phosphorusData = {
+        labels: ["High", "Low", "Medium"],
+        datasets: [{
+          data: [30, 50, 20],
+          backgroundColor: ["#FF5733", "#36A724", "#FFD733"],
+        }],
+      };
 
-    // Data for potassium chart
-    var potassiumData = {
-      labels: ["High", "Low", "Medium"],
-      datasets: [{
-        data: [10, 60, 30],
-        backgroundColor: ["#FF5733", "#36A724", "#FFD733"],
-      }],
-    };
+      // Data for potassium chart
+      var potassiumData = {
+        labels: ["High", "Low", "Medium"],
+        datasets: [{
+          data: [10, 60, 30],
+          backgroundColor: ["#FF5733", "#36A724", "#FFD733"],
+        }],
+      };
 
-    // Data for organic carbon chart
-    var ocData = {
-      labels: ["High", "Low", "Medium"],
-      datasets: [{
-        data: [50, 10, 40],
-        backgroundColor: ["#FF5733", "#36A724", "#FFD733"],
-      }],
-    };
+      // Data for organic carbon chart
+      var ocData = {
+        labels: ["High", "Low", "Medium"],
+        datasets: [{
+          data: [50, 10, 40],
+          backgroundColor: ["#FF5733", "#36A724", "#FFD733"],
+        }],
+      };
 
-    // Get the canvas elements and create the charts
-    var nitrogenChart = new Chart(document.getElementById("nitrogenChart"), {
-      type: "pie",
-      data: nitrogenData,
-      options: {
-        responsive: true, // This allows the chart to be responsive to its container
-        maintainAspectRatio: false, // This ensures the aspect ratio is not maintained
-        plugins: {
-          legend: {
-            display: false,
-          },
-          title: {
-            display: true,
-            text: "Nitrogen",
-            position: "top",
+      // Get the canvas elements and create the charts
+      var nitrogenChart = new Chart(document.getElementById("nitrogenChart"), {
+        type: "pie",
+        data: nitrogenData,
+        options: {
+          responsive: true, // This allows the chart to be responsive to its container
+          maintainAspectRatio: false, // This ensures the aspect ratio is not maintained
+          plugins: {
+            legend: {
+              display: false,
+            },
+            title: {
+              display: true,
+              text: "Nitrogen",
+              position: "top",
+            },
           },
         },
-      },
-    });
+      });
 
-    var phosphorusChart = new Chart(document.getElementById("phosphorusChart"), {
-      type: "pie",
-      data: phosphorusData,
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: {
-          legend: {
-            display: false,
-          },
-          title: {
-            display: true,
-            text: "Phosphorus",
-            position: "top",
+      var phosphorusChart = new Chart(document.getElementById("phosphorusChart"), {
+        type: "pie",
+        data: phosphorusData,
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              display: false,
+            },
+            title: {
+              display: true,
+              text: "Phosphorus",
+              position: "top",
+            },
           },
         },
-      },
-    });
+      });
 
-    var potassiumChart = new Chart(document.getElementById("potassiumChart"), {
-      type: "pie",
-      data: potassiumData,
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: {
-          legend: {
-            display: false,
-          },
-          title: {
-            display: true,
-            text: "Potassium",
-            position: "top",
+      var potassiumChart = new Chart(document.getElementById("potassiumChart"), {
+        type: "pie",
+        data: potassiumData,
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              display: false,
+            },
+            title: {
+              display: true,
+              text: "Potassium",
+              position: "top",
+            },
           },
         },
-      },
-    });
+      });
 
-    var ocChart = new Chart(document.getElementById("ocChart"), {
-      type: "pie",
-      data: ocData,
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: {
-          legend: {
-            display: false,
-          },
-          title: {
-            display: true,
-            text: "Organic Carbon",
-            position: "top",
+      var ocChart = new Chart(document.getElementById("ocChart"), {
+        type: "pie",
+        data: ocData,
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              display: false,
+            },
+            title: {
+              display: true,
+              text: "Organic Carbon",
+              position: "top",
+            },
           },
         },
-      },
+      });
     });
-  });
 
   </script>
   <!--//MENU-JS-->

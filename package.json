@@ -1,0 +1,14 @@
+{
+  "name": "microsoft-future-ready-talent-project",
+  "version": "1.0.0",
+  "description": "Microsoft future ready talent final project This is my final project for Microsoft future ready talent program.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
